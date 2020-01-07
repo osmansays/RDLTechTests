@@ -1,0 +1,7 @@
+git init
+git config --global user.name " Osman Hamad"
+git config --global user.email " Osmansays@gmail.com"
+git add .
+git commit -m "uploading docker file , scripts , k8s yaml files to public repo"
+git remote add origion https://github.com/osmansays/RDLTechTests
+git push origin master
